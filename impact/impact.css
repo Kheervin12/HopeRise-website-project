@@ -16,6 +16,10 @@ body {
   justify-content: space-between;
   gap: 110px;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
 }
 
 .nav-links {
@@ -106,4 +110,3 @@ body {
   font-size: 19.62px;
   width: 553.05px;
 }
-

@@ -16,6 +16,10 @@ body {
   justify-content: space-between;
   gap: 110px;
   align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #fff;
 }
 
 .nav-links {
@@ -421,7 +425,6 @@ body {
   gap: 16px;
   border: none;
   border-radius: 16px;
-
 }
 
 .white-btn {
@@ -444,14 +447,14 @@ body {
   display: flex;
   justify-content: space-between;
   background: linear-gradient(
-        to right,
-        #f4efe6 0%,
-        #c0ccba 5%,
-        #82b27d 24%,
-        #4f9650 38%,
-        #2e7d32 55%,
-        #2e7d32 100%
-    );
+    to right,
+    #f4efe6 0%,
+    #c0ccba 5%,
+    #82b27d 24%,
+    #4f9650 38%,
+    #2e7d32 55%,
+    #2e7d32 100%
+  );
 
   a {
     text-decoration: none;
