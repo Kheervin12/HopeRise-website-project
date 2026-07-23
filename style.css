@@ -312,7 +312,7 @@ body {
   }
 }
 
-.heading {
+.topic {
   display: flex;
   flex-direction: column;
   align-items: center;
