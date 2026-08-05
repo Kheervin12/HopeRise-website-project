@@ -1,0 +1,49 @@
+.top {
+    padding: 24px 68px;
+    background-color: #FCF6ED;
+
+    h2 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
+
+.middle {
+    padding: 48px 68px;
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+}
+
+.story {
+    display: flex;
+    gap: 21px;
+
+    img {
+        width: 641.5px;
+        height: 322px;
+    }
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    h4 {
+        font-size: 20px;
+        color: #2E7D32;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 28px;
+        font-weight: 500;
+        width: 244px;
+    }
+
+    p {
+        font-size: 17px;
+        width: 601.5px;
+    }
+}
