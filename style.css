@@ -169,6 +169,7 @@ button {
 }
 
 .about {
+  width: 100%;
   display: flex;
   padding: 48px 68px 32px 68px;
   gap: 21px;
