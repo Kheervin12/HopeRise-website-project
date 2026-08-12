@@ -170,7 +170,7 @@ button {
 
 .about {
   display: flex;
-  padding: 48px 68px 32px 68px;
+  margin: 48px 68px 32px 68px;
   gap: 21px;
 }
 
